@@ -4,7 +4,6 @@ class Solution:
         self.y = y
     def sim(x, y):
         return x*y
-
-x = 5
-y = 6
-print(Solution.sim(x, y))
+if __name__ == "__main__":
+    x, y = 5, 6
+    print(Solution.sim(x, y))
